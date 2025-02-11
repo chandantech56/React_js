@@ -6,6 +6,8 @@ class ClassComponent extends React.Component{
         return(
             <>
             <h1> I am a ClassComponent</h1>
+            <h3> productName: {this.props.productName}</h3>
+            <h4> price: {this.props.price}</h4>
             </>
         )
     }
