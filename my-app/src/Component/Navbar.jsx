@@ -12,10 +12,12 @@ class Navbar extends React.Component{
             
               <ul>
               <img src={logo} alt="Logo" width={50} />
+              <div className='navBar'>
                 <li>Home</li>
                 <li>about</li>
                 <li>service</li>
                 <li>Contact</li>
+                </div>
               </ul>
             </nav>
             

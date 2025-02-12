@@ -1,6 +1,7 @@
 
-body{
-    background-color: bisque;
+body{ 
+    
+    background-color: rgb(226, 152, 247);
     margin: 2px;
     padding: 5px;
     min-height: 200vh;
@@ -10,7 +11,7 @@ nav{
    
     
 }
-li,ul{
+.navBar, ul{
     list-style-type: none;
     
     padding: 3px;
@@ -28,5 +29,10 @@ li,ul{
     font-weight: 600;
     position:fixed;
     bottom: 0;
+    
+}
+/* todolist */
+.Todolist>li{
+    color: black;
     
 }
