@@ -32,6 +32,7 @@ function handleDelete(index){
       <ul style={{color:"black", display:"block"}}>
         {todos.map((todo, index) => (
           <li key={index}>{todo}
+          {/* delete button */}
           <button onClick={() =>handleDelete(index)}>Delete</button>
           </li>
         ))}
