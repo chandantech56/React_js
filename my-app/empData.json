@@ -1,0 +1,53 @@
+
+{
+"empData":[
+    {
+        "emoId":100,
+        "empName": "john",
+        "designation":"UI Developer",
+        "Location": "bangalore"
+       
+    },
+
+    {
+        "empId":101,
+        "empName": "john smith",
+        "designation":" Developer",
+        "Location": "bangalore"
+       
+    },
+
+    {
+        "emoId":102,
+        "empName": "Daniel",
+        "designation":"Web Developer",
+        "Location": "Chennai"
+       
+    },
+
+
+    {
+        "emoId":104,
+        "empName": "john",
+        "designation":"UI Developer",
+        "Location": "bangalore"
+       
+    },
+
+    {
+        "emoId":105,
+        "empName": "john",
+        "designation":"UI Developer",
+        "Location": "bangalore"
+       
+    },
+
+    {
+        "emoId":106,
+        "empName": "john",
+        "designation":"UI Developer",
+        "Location": "bangalore"
+       
+    }
+]
+}

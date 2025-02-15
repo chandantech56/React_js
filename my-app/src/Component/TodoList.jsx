@@ -25,6 +25,7 @@ function handleDelete(index){
   return (
     <div>
       <h1>Todo List</h1>
+      
       <form>
         <input type='text' value={inputValue} onChange={handleChange}/>
         <button onClick={handleSubmit}>Add Todo</button>

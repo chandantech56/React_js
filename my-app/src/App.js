@@ -2,16 +2,15 @@ import logo from './logo.svg';
 import './App.css';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-
 import './Component/FunctionalComponent';
 import FunctionalComponent from './Component/FunctionalComponent';
 import ClassComponent from './Component/ClassComponent';
 
 import Navbar from  './Component/Navbar';
-// import Footer from  './Component/Footer';
+import Footer from  './Component/Footer';
 import Message from  './Component/Message';
 import TodoList from  './Component/TodoList';
+import Employee from './Component/Employee';
 
 
 function App() {
@@ -25,12 +24,13 @@ function App() {
       {/* <h4>javascript Library</h4>
       <p>React is a Single page Website</p>
       <FunctionalComponent name= 'john' subject='react'/>
-      <ClassComponent productName='Tshirt' price = '$20'/>
-      <Footer/> */}
+      <ClassComponent productName='Tshirt' price = '$20'/> */}
+       <Footer/>
 
       <Message/>
 
       <TodoList/>
+      <Employee/>
       
       </>
     
